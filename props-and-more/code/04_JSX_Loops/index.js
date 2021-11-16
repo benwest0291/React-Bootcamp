@@ -3,16 +3,20 @@ class App extends React.Component {
     return (
       <div>
         <Friend
-          name="Elton"
-          hobbies={['Piano', 'Singing', 'Dancing']}
+          name="Ben"
+          hobbies={["Playing with kittens", "Coding", "Football"]}
         />
         <Friend
-          name="Frida"
-          hobbies={['Drawing', 'Painting']}
+          name="Sarah"
+          hobbies={[
+            "Playing with kittens",
+            "Sleeping",
+            "Watching Rubbish on tv",
+          ]}
         />
       </div>
-    )
+    );
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById("root"));
