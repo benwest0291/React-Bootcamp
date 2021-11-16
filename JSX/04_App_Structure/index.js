@@ -5,8 +5,8 @@ class App extends React.Component {
         <Hello />
         <NumPicker />
       </div>
-    )
+    );
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
