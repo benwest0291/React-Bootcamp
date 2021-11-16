@@ -1,13 +1,32 @@
 .Machine {
-	border: 2px solid black;
-	background: lightblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  background: lightblue;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  border-radius: 10px;
+  border: solid #fff 2px;
 }
 
 .win {
-	background: green;
-	color: white;
+  background: green;
+  color: white;
+  padding: 20px;
+  border: solid #fff 2px;
 }
+
 .lose {
-	color: white;
-	background: red;
+  color: white;
+  background: red;
+  padding: 20px;
+  border: solid #fff 2px;
 }
